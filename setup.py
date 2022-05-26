@@ -2,7 +2,7 @@
 # # coding: utf-8
 
 from setuptools import setup
-__version__ = "0.0.1.0"
+__version__ = "0.0.1.2"
 
 setup(
     name='cloudtest',
@@ -13,6 +13,8 @@ setup(
     author_email='lihechao@gmail.com',
     license="MIT",
     url='https://github.com/juewuer/cloudtest',
+    package_dir={"": "src"},
+    packages=setuptools.find_packages(where="src"),
     py_modules=['cloudtest'],
     classifiers=[
         'Development Status :: 4 - Beta',

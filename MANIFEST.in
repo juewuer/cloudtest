@@ -1,2 +1,2 @@
 include *.md
-recursive-include test *.py *.json *.yaml
+recursive-include src *.py *.json *.yaml *.md
