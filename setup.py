@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # # coding: utf-8
 
-from setuptools import setup
+import setuptools
 __version__ = "0.0.1.2"
 
-setup(
+setuptools.setup(
     name='cloudtest',
     description='cloudtest',
     long_description='used for test openstack projects',
